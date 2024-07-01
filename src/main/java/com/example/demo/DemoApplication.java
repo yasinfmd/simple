@@ -7,19 +7,19 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 
-//@SpringBootApplication
-//@RestController
+@SpringBootApplication
+@RestController
 public class DemoApplication {
 
-	// @GetMapping("/selam")
-	// public String getMethodName() {
-	// 	return "Merrhabaaa";
-	// }
+	 @GetMapping("/selam")
+	 public String getMethodName() {
+	 	return "Merrhabaaa";
+	 }
 	
 
 	public static void main(String[] args) {
 		System.out.println("Yasin Dalkılıç");
-	//	SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }
